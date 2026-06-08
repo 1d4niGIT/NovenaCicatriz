@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 542d23bff8583ea43918973a1682c4b9
+guid: 966221eb04262244685f9c9f88c6623f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8812459320076437927
-    second: EliasVorn_0
+      213: -5403833332513073753
+    second: Demonio - BrazoDER_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EliasVorn_0
+      name: Demonio - BrazoDER_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 0
-        width: 107
-        height: 192
+        x: 49
+        y: 82
+        width: 85
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a98cbaaf052c4a70800000000000000
-      internalID: 8812459320076437927
+      spriteID: 7a5942ef63ab105b0800000000000000
+      internalID: -5403833332513073753
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EliasVorn_0: 8812459320076437927
+      Demonio - BrazoDER_0: -5403833332513073753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

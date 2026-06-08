@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 542d23bff8583ea43918973a1682c4b9
+guid: 0c1619c52858d7d469a961613a1194e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8812459320076437927
-    second: EliasVorn_0
+      213: 2149629880491553158
+    second: Demonio - PiernaIZQ_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EliasVorn_0
+      name: Demonio - PiernaIZQ_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 0
-        width: 107
-        height: 192
+        x: 36
+        y: 40
+        width: 39
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a98cbaaf052c4a70800000000000000
-      internalID: 8812459320076437927
+      spriteID: 681b341bcf405dd10800000000000000
+      internalID: 2149629880491553158
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EliasVorn_0: 8812459320076437927
+      Demonio - PiernaIZQ_0: 2149629880491553158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

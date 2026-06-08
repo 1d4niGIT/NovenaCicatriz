@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 542d23bff8583ea43918973a1682c4b9
+guid: 4ccd0b24ebd2e9a4aa56a48dbaa6c1f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8812459320076437927
-    second: EliasVorn_0
+      213: -4014462270974702395
+    second: Demonio del collar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EliasVorn_0
+      name: Demonio del collar_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 0
-        width: 107
-        height: 192
+        x: 5
+        y: 24
+        width: 150
+        height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a98cbaaf052c4a70800000000000000
-      internalID: 8812459320076437927
+      spriteID: 5cc485685d3c948c0800000000000000
+      internalID: -4014462270974702395
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EliasVorn_0: 8812459320076437927
+      Demonio del collar_0: -4014462270974702395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

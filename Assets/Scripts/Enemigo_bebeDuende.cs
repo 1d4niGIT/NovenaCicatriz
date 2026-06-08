@@ -1,0 +1,54 @@
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class Enemigo_bebeDuende : MonoBehaviour
+{
+    public GameObject Objetivo;
+    public float radioMovimiento = 2f;
+    public float radioAtaque = 1f;
+    public float VelocidadBebeDuende = 2f;
+    public bool AtaqueEnemigoDisponible = true;
+    public float Daño = 1f;
+    public float TiempoActual;
+    public float TiempoMaximo = 2f;
+
+    void Start()
+    {
+
+    }
+    void Update()
+    {
+        SeguirObjetivo();
+        if (!AtaqueEnemigoDisponible)
+            CooldownEnemigo();
+    }
+    public void SeguirObjetivo()
+    {
+        Vector3 dir = (Objetivo.transform.position - transform.position).normalized;
+        if (Vector3.Distance(Objetivo.transform.position, transform.position) < radioMovimiento)
+        {
+            if (Vector3.Distance(Objetivo.transform.position, transform.position) < radioAtaque)
+            {
+                if (AtaqueEnemigoDisponible)
+                {
+                    Objetivo.GetComponent<Jugador>().Vida -= Daño;
+                    AtaqueEnemigoDisponible = false;
+                }
+            }
+            else
+            {
+                transform.position += dir * VelocidadBebeDuende * Time.deltaTime;
+            }
+        }
+    }
+    public void CooldownEnemigo()
+    {
+        TiempoActual += Time.deltaTime;
+        if (TiempoActual >= TiempoMaximo)
+        {
+            AtaqueEnemigoDisponible = true;
+            TiempoActual = 0;
+        }
+    }
+
+}

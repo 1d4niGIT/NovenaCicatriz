@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 542d23bff8583ea43918973a1682c4b9
+guid: 44d0d5dcdd22c31468de4f52821bdad5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8812459320076437927
-    second: EliasVorn_0
+      213: 7208805458571232420
+    second: Capturadepantalla2026-06-01202126_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EliasVorn_0
+      name: Capturadepantalla2026-06-01202126_0
       rect:
         serializedVersion: 2
-        x: 60
+        x: 0
         y: 0
-        width: 107
-        height: 192
+        width: 2034
+        height: 1043
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a98cbaaf052c4a70800000000000000
-      internalID: 8812459320076437927
+      spriteID: 4a40905ee52da0460800000000000000
+      internalID: 7208805458571232420
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EliasVorn_0: 8812459320076437927
+      Capturadepantalla2026-06-01202126_0: 7208805458571232420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

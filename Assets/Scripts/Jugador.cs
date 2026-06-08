@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Jugador : MonoBehaviour
 {
-    public float Speed;
+    public float VelocidadJugador = 5f;
+    public float Vida = 100f;
     void Start()
     {
         
@@ -12,13 +13,13 @@ public class Jugador : MonoBehaviour
     {
         Movimiento();
     }
-    void Movimiento()
+    public void Movimiento()
     {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
         Vector3 dir = new Vector3(x, y, 0);
         dir.Normalize();
         if (dir != Vector3.zero)
-            transform.position += dir * Speed * Time.deltaTime;
+            transform.position += dir * VelocidadJugador * Time.deltaTime;
     }
 }
