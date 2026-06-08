@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class Enemigo_bebeDuende : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class Enemigo_bebeDuende : MonoBehaviour
 
     void Start()
     {
-
+        Objetivo = GameObject.FindGameObjectWithTag("Player");
     }
     void Update()
     {
