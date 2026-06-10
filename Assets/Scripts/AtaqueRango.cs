@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AtaqueRango : MonoBehaviour
 {
-    public float VelocidadProyectil = 5f;
+    public float VelocidadProyectil = 3f;
     public float TiempoVivo = 3f;
     void Start()
     {

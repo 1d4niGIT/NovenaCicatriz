@@ -7,7 +7,7 @@ public class Enemigo_bebeDuende : MonoBehaviour
     public GameObject Objetivo;
     public float radioMovimiento = 2f;
     public float radioAtaque = 1f;
-    public float VelocidadBebeDuende = 2f;
+    public float VelocidadBebeDuende = 1f;
     public bool AtaqueEnemigoDisponible = true;
     public float Daño = 1f;
     public float TiempoActual;

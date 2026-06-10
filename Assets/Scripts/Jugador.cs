@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Jugador : MonoBehaviour
 {
-    public float VelocidadJugador = 5f;
+    public float VelocidadJugador = 2f;
     public float Vida = 100f;
     void Start()
     {
