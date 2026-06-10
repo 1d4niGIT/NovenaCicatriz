@@ -3,7 +3,7 @@ using UnityEngine;
 public class ControlCámara : MonoBehaviour
 {
     public GameObject Enfocado;
-    public float VelocidadCamara = 20f;
+    public float VelocidadCamara = 40f;
     void Start()
     {
         
