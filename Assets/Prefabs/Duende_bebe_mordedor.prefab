@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemigo_bebeDuende
   Objetivo: {fileID: 0}
   radioMovimiento: 2
-  radioAtaque: 1
+  radioAtaque: 0.2
   VelocidadBebeDuende: 1
   AtaqueEnemigoDisponible: 1
   "Da\xF1o": 1
